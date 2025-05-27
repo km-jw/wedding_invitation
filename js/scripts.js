@@ -66,16 +66,16 @@ function kakaoShare() {
         description: '2024.03.01\n11시 30분 빌라드지디 청담',
         imageUrl: 'https://github.com/jaeyun95/jaeyun95.github.io/blob/main/assets/img/main.jpg?raw=true',
         link: {
-            mobileWebUrl: 'https://comgongnuna.github.io/#!',
-            webUrl: 'https://comgongnuna.github.io/#!',
+            mobileWebUrl: 'https://km-jw.github.io/wedding_invitation/#!',
+            webUrl: 'https://km-jw.github.io/wedding_invitation/#!',
         },
         },
         buttons: [
         {
             title: '모바일 청첩장 보기',
             link: {
-            mobileWebUrl: 'https://comgongnuna.github.io/#!',
-            webUrl: 'https://comgongnuna.github.io/#!',
+            mobileWebUrl: 'https://km-jw.github.io/wedding_invitation/#!',
+            webUrl: 'https://km-jw.github.io/wedding_invitation/#!',
             },
         },
         ],
