@@ -13,7 +13,7 @@ function copyLink(){
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
-	alert("링크가 복사되었습니다. 널리널리 퍼뜨려주세요💕")
+	alert("링크가 복사되었습니다. 지인에게 공유해주세요💕")
 }
 
 // 신부 계좌번호 복사
@@ -36,34 +36,7 @@ function groomAccountNumber(){
 	textarea.value = groom_account;
 	textarea.select();
 	document.execCommand("copy");
-	document.body.removeChild(textarea);
-	alert("신랑의 계좌번호가 복사되었습니다.\n00000000 카카오뱅크")
-}
-
-// 아버님 계좌번호 복사 
-function groomsFatherAccountNumber(){
-    var grooms_father_account = '00000000 국민은행';
-	var textarea = document.createElement("textarea");
-	document.body.appendChild(textarea);
-	textarea.value = grooms_father_account;
-	textarea.select();
-	document.execCommand("copy");
-	document.body.removeChild(textarea);
-	alert("계좌번호가 복사되었습니다.\n00000000 국민은행")
-}
-
-
-// 카카오톡 공유하기
-function kakaoShare() {
-    Kakao.init('YOUR APP KEY');
-    // SDK 초기화 여부를 판단합니다.
-    Kakao.isInitialized();
-    //console.log(Kakao.isInitialized());
-    Kakao.Share.sendDefault({
-        objectType: 'feed',
-        content: {
-        title: '재윤🤍영석 결혼합니다.',
-        description: '2024.03.01\n11시 30분 빌라드지디 청담',
+	document.bo홀',
         imageUrl: 'https://github.com/jaeyun95/jaeyun95.github.io/blob/main/assets/img/main.jpg?raw=true',
         link: {
             mobileWebUrl: 'https://km-jw.github.io/wedding_invitation/#!',
